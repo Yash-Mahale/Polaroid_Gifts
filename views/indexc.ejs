@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <div class="home-pg1">
+        <div class="nav-bar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#gifts">Gifts</a></li>
+                <li><a href="#aboutus">Contact</a></li>
+            </ul>
+            <div class="name">
+                <% if (locals.userName) { %>
+                    Hii <%= userName %>
+                <% } else { %>
+                    Login
+                <% } %>
+            </div>
+        </div>
+        <div class="upper-img1">
+            <img src="nav.jpg">
+        </div>
+    </div>
+    <div class="items">
+        <div class="gcont">
+            <div class="giftitem">
+                <div class="gifimg">
+                    <img src="gift4.png">
+                </div>
+                <div class="gifprice">
+                    ₹1299.00
+                </div>
+                <a href="">More Details</a>
+            </div>
+            <div class="giftitem">
+                <div class="gifimg">
+                    <img src="g3.png">
+                </div>
+                <div class="gifprice">
+                    ₹899.00
+                </div>
+                <a href="">More Details</a>
+            </div>
+        </div>
+        <div class="gcont">
+            <div class="giftitem">
+                <div class="gifimg">
+                    <img src="gift3.png">
+                </div>
+                <div class="gifprice">
+                    ₹2199.00
+                </div>
+                <a href="">More Details</a>
+            </div>
+            <div class="giftitem">
+                <div class="gifimg">
+                    <img src="g1.png">
+                </div>
+                <div class="gifprice">
+                    ₹8199.00
+                </div>
+                <a href="">More Details</a>
+            </div>
+        </div>
+        <div class="gcont">
+            <div class="giftitem">
+                <div class="gifimg">
+                    <img src="g4.png">
+                </div>
+                <div class="gifprice">
+                    ₹299.00
+                </div>
+                <a href="">More Details</a>
+            </div>
+            <div class="giftitem">
+                <div class="gifimg">
+                    <img src="g2.png">
+                </div>
+                <div class="gifprice">
+                    ₹399.00
+                </div>
+                <a href="">More Details</a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="about" style="position: absolute; top: 145vh" id="aboutus">
+        <div class="ysocial1">
+            <div class="ysbox">
+                <img src="t.png">
+            </div>
+            <div class="ysbox">
+                <img src="f.png">
+            </div>
+            <div class="ysbox">
+                <img src="g.png">
+            </div>
+            <div class="ysbox">
+                <img src="y.png">
+            </div>
+            <div class="ysbox">
+                <img src="i.png">
+            </div>
+        </div>
+        <div class="The-text">
+            The Gift Store
+        </div>
+        <div class="The-text2">
+            All rights reserved copyright © 2024
+        </div>
+    </div>
+</body>
+</html>
